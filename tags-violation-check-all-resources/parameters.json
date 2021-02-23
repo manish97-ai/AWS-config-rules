@@ -1,0 +1,13 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "tags-violation-check-all-resources",
+    "Description": "tags-violation-check-all-resources",
+    "SourceRuntime": "python3.8",
+    "CodeKey": "tags-violation-check-all-resources.zip",
+    "InputParameters": "{\"Project\": \"\", \"Email\": \"\", \"Risk\": \"\"}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::EC2::Instance,AWS::IAM::User,AWS::RDS::DBCluster"
+  },
+  "Tags": "[]"
+}
