@@ -27,4 +27,4 @@ Custom AWS config rules which can be deployed using RDK(Rule Development Kit).
 
 ## For more information
 
-1. RDK documentation- https://github.com/awslabs/aws-config-rdk
+1. RDK documentation- https://readthedocs.org/projects/rdk/downloads/pdf/latest/
