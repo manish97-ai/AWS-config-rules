@@ -37,7 +37,7 @@ CONFIG_ROLE_TIMEOUT_SECONDS = 900
 # Main Code #
 #############
 
-APPLICABLE_RESOURCES = ["AWS::EC2::Instance", "AWS::IAM::User", "AWS::RDS::DBCluster"]
+APPLICABLE_RESOURCES = ["AWS::EC2::Instance", "AWS::RDS::DBCluster"]
 violations = ""
 
 
