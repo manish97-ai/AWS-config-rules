@@ -1,0 +1,13 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "project-tag-violation-check",
+    "Description": "project-tag-violation-check",
+    "SourceRuntime": "python3.6-lib",
+    "CodeKey": "project-tag-violation-check.zip",
+    "InputParameters": "{\"Project\": \"\"}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::EC2::Instance,AWS::RDS::DBCluster"
+  },
+  "Tags": "[]"
+}

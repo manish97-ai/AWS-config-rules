@@ -1,0 +1,13 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "email-tag-violation-check",
+    "Description": "email-tag-violation-check",
+    "SourceRuntime": "python3.8",
+    "CodeKey": "email-tag-violation-check.zip",
+    "InputParameters": "{\"Email\": \"\"}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::EC2::Instance,AWS::IAM::User,AWS::RDS::DBCluster"
+  },
+  "Tags": "[]"
+}

@@ -1,0 +1,13 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "risk-tag-violation-check",
+    "Description": "risk-tag-violation-check",
+    "SourceRuntime": "python3.6-lib",
+    "CodeKey": "risk-tag-violation-check.zip",
+    "InputParameters": "{\"Risk\": \"\"}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::EC2::Instance,AWS::RDS::DBCluster"
+  },
+  "Tags": "[]"
+}
